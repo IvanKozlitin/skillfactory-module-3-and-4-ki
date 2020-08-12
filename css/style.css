@@ -1,0 +1,1184 @@
+/* Подключаю шрифты */
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+@font-face {
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+@font-face {
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+@font-face {
+    src: url('../fonts/OpenSans-Italic.ttf');
+    font-family: 'Open Sans';
+    font-style: italic;
+}
+
+/* Прописываю стили для body */
+
+body {
+	margin: 0;
+	color: #000000;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
+/* Прописываю стили для блока 1 */
+
+.block-1 {
+	background-color: #F6F2F2;
+	padding: 30px 0;
+}
+
+#header-menu {
+	max-width: 1249px;
+	background: #000000;
+	margin: auto;
+}
+
+#header-menu ul {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header-menu li {
+	display: flex;
+    align-items: stretch;
+}
+#header-menu li:hover {
+	background: #FF3F40;
+}
+
+#header-menu a {
+	padding: 33px 23px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.49px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #E0E0E0;
+}
+
+/* Прописываю стили для блока 2 */
+
+.block-2 {
+	background-color: #F6F2F2;
+	padding: 70px 0 110px 0;
+}
+
+.block-2-1{
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.intro h1 {
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 72px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #000000;
+	max-width: 618px;
+	margin: 0 0 8px 0;
+	position: relative;
+	top: -14px;
+}
+
+.intro p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	max-width: 545px;
+	margin: 0 0 55px 0;
+}
+
+.intro .button-intro {
+	display: inline-block;
+    width: 227px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 18px 0;
+	border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+	background: #FF2D2D;
+
+}
+
+.image-intro img {
+	width: 551px;
+    height: 356px;
+    box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
+}
+
+/* Прописываю стили для блока 3 */
+
+.block-3 {
+	background-color: #FFFFFF;
+	padding: 110px 0 50px 0;
+}
+
+.block-3-1 {
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block-3-1-1 h2 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 55px;
+	letter-spacing: 0.45px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 20px;
+	max-width: 540px;
+	position: relative;
+	top: -20px;
+}
+
+.block-3-1-1 p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 0;
+	margin-bottom: 65px;
+	max-width: 540px;
+}
+
+.button-services {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	color: #FF2D2D;
+	text-decoration: none;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.0001);
+	border: 2px solid #FF0000;
+	box-sizing: border-box;
+	padding: 14px 60px;
+	border-radius: 5px;
+}
+
+.block-3-1-2 {
+	margin-left: 100px;
+	max-width: 650px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mini-block {
+	max-width: 300px;
+	margin-bottom: 30px;
+}
+
+.mini-block:nth-child(odd) {
+	margin-right: 8px;
+}
+
+.mini-block h3 {
+	font-weight: 600;
+	font-size: 24.0692px;
+	line-height: 0px;
+	letter-spacing: 0.275px;
+}
+.mini-block p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.block-3-1-2-1::before {
+	content: url("../images/ico-1.svg");
+	width: 37px;
+	position: relative;
+	top: -10px;
+}
+
+.block-3-1-2-2::before {
+	content: url("../images/ico-2.svg");
+	width: 37px;
+	position: relative;
+	top: -10px;
+}
+
+.block-3-1-2-3::before {
+	content: url("../images/ico-3.svg");
+	width: 37px;
+	position: relative;
+	top: -10px;
+}
+
+.block-3-1-2-4::before {
+	content: url("../images/ico-4.svg");
+	width: 37px;
+	position: relative;
+	top: -10px;
+}
+
+.hr-3-4 {
+	border-top: 2px solid #ECECEC;
+	max-width: 1249px;
+}
+
+
+/* Прописываю стили для блока 4 */
+
+.block-4 {
+	background-color: #FFFFFF;
+	padding: 80px 0 30px 0;
+}
+
+.block-4-1 {
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block-4-1 h2 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 0px;
+	text-align: center;
+	letter-spacing: 0.385px;
+	text-transform: uppercase;
+}
+
+.block-4-1 p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	max-width: 540px;
+	text-align: center;
+}
+
+.hr-4-5 {
+	border-top: 2px solid #FF2D2D;
+	width: 135px;
+}
+
+/* Прописываю стили для блока 5 */
+
+.block-5 {
+	background-color: #FFFFFF;
+	padding: 30px 0 60px 0;
+}
+
+.block-5-1 {
+	max-width: 1249px;;
+	margin: auto;
+}
+
+.portfolio-menu {
+	margin: auto;
+	margin-bottom: 45px;
+}
+
+.portfolio-menu ul {
+	padding-left: 0;
+	list-style-type: none;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;	
+}
+
+.portfolio-menu a {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 24px;
+	letter-spacing: 0.22px;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	margin: 0 26px;
+}
+
+.portfolio-menu a:hover {
+	color: #FF2D2D;
+}
+
+.portfolio-album {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.portfolio-album-a {
+	margin: 10px;
+}
+
+.portfolio-album-a:nth-child(1) {
+	margin-left: 0;
+}
+
+.portfolio-album-a:nth-child(5n) {
+	margin-left: 0;
+}
+
+.portfolio-album-a:nth-child(4n) {
+	margin-right: 0;
+}
+
+.portfolio-album-img {
+	width: 295px;
+	height: 285px;
+}
+
+/* Прописываю стили для блока 6 */
+
+.block-6 {
+	background-color: #FFFFFF;
+	padding: 50px 0 30px 0;
+}
+
+.block-6-1 {
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.block-6-1 h2 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 0px;
+	letter-spacing: 0.385px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.block-6-1 p {
+	max-width: 475px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 32px;
+}
+
+.hr-6-7 {
+	border-top: 2px solid #FF2D2D;
+	width: 135px;
+	margin: 0 auto 0 0;
+}
+
+/* Прописываю стили для блока 7 */
+
+.block-7 {
+	background-color: #FFFFFF;
+	padding: 35px 0 60px 0;
+}
+
+.block-7-1 {
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photo-man {
+	width: 321px;
+    height: 458px;
+    background-color: #eb6d4a8f;
+    margin-right: 75px;
+}
+
+.block-7-1-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.block-7-1-1 h3 {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 0px;
+	letter-spacing: 0.275px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.block-7-1-1 p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	max-width: 663px;
+	margin-bottom: 26px;
+}
+
+.order-social-7-block {
+	list-style-type: none;
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.order-social-7-block li {
+	margin: 0 15px;
+}
+
+.order-social-7-block li:nth-child(1) {
+	margin-left: 0;
+}
+
+.order-social-7-block a {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.9px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.order-social-7-block a:hover {
+	text-decoration: underline;
+}
+
+.albun-team-7-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.member {
+	position: relative;
+	margin: 40px 9px;
+}
+
+.member:nth-child(1) {
+	margin-left: 0;
+}
+
+.member h3 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 0px;
+	letter-spacing: 0.165px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 37px;
+    margin: 0;
+}
+
+.member:hover > .member-name {
+	visibility: visible;
+}
+
+.photo-girl {
+	display: block;
+	width: 197px;
+	height: 214px;
+	background-color: #d4dce680;
+}
+
+/* Прописываю стили для блока 8 */
+
+.block-8 {
+	background-color: #2c2c2c;
+	margin-top: 12px;
+	padding: 125px 0 135px 0;
+}
+
+.block-8-1 {
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block-8-1 h2 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 1.05px;
+	opacity: 0.8;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.block-8-1 p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	opacity: 0.8;
+	color: #FFFFFF;
+	margin-bottom: 55px;
+}
+
+.form-block-8 {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#email-block-8 {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	width: 524px;
+	height: 82px;
+	color: #2C2C2C;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 38px;
+	margin-right: 20px;
+}
+
+#button-block-8 {
+	width: 217px;
+	height: 82px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+	background: #FF2D2D;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 0;
+}
+
+/* Прописываю стили для блока 9 */
+
+.block-9 {
+	background-color: #FFFFFF;
+	padding: 90px 0 30px 0;
+}
+
+.block-9-1 {
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.block-9-1 h2 {
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 0px;
+	letter-spacing: 0.385px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.block-9-1 p {
+	max-width: 753px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 50px;
+}
+
+.hr-9-10 {
+	border-top: 2px solid #FF2D2D;
+	width: 135px;
+	margin: 0 auto 0 0;
+}
+
+/* Прописываю стили для блока 10 */
+
+.block-10 {
+	background-color: #FFFFFF;
+	padding: 45px 0 110px 0;
+	display: flex;
+	width: 100%;
+}
+
+.block-10-0 {
+	display: block;
+	flex: 1 1 auto;
+}
+
+.block-10-1 {
+	width: 1249px;;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block-10-2 {
+	display: block;
+	flex: 1 1 auto;
+	background: #2D2D2D;
+}
+
+.block-10-1-1 {
+	max-width: 731px;
+}
+
+.form-block-10 {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#name-block-10 {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-style: normal;
+	width: 342px;
+	height: 71px;
+	background: #f3f3f3;
+	font-size: 16px;
+	color: #8e8e8e;
+    box-sizing: border-box;
+    padding-left: 54px;
+    padding-right: 54px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+#email-block-10 {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-style: normal;
+	width: 342px;
+	height: 71px;
+	background: #f3f3f3;
+	font-size: 16px;
+	color: #8e8e8e;
+    box-sizing: border-box;
+    padding-left: 54px;
+    padding-right: 54px;
+    border: none;
+    border-radius: 5px;
+}
+
+#message-block-10 {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	font-style: normal;
+	width: 731px;
+	height: 250px;
+	background: #f3f3f3;
+	box-sizing: border-box;
+	padding-top: 30px;
+    padding-left: 54px;
+    padding-right: 54px;
+    border: none;
+    border-radius: 5px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+	margin-top: 45px;
+}
+
+#button-block-10 {
+	width: 731px;
+	height: 75px;
+	background: #FF3B3B;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0.32px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 45px;
+}
+
+.block-10-1-2 {
+	background: #2D2D2D;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+    box-sizing: border-box;
+	padding: 0 20px 0 80px;
+}
+
+.contacts-heading {
+	width: 315px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0.32px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.contacts-address {
+	width: 315px;
+}
+
+.contacts-line {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	padding-top: 5px;
+}
+
+.contacts-address:nth-child(1) {
+	padding-top: 0;
+}
+
+/* Прописываю стили для блока 11 */
+
+.block-11 {
+	background: #313030;
+}
+
+.block-11-1 {
+	max-width: 1249px;;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 34px 0 34px 0;
+}
+
+.footer-text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #B8B8B8;
+	width: 50vw;
+	margin-right: 20px;
+}
+
+.cocial-menu {
+	display: flex;
+}
+
+.cocial-link {
+	margin: 9px;
+}
+
+.cocial-link-img {
+	width: 33px;
+	height: 33px;
+}
+
+/* Прописываю стили адаптивности */
+
+@media (min-width: 350px) and (max-width: 1275px) {
+
+	.block-2-1 {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 85vw;
+	}
+	
+	.intro {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+
+	.intro h1,
+	.intro p {
+		max-width: none;
+		text-align: center;
+	}
+
+	.intro .button-intro {
+		width: 30vw;
+		padding: 25px 0;
+	}
+
+	.image-intro img {
+		width: 85vw;
+    	height: auto;
+	}
+
+	.block-3-1 {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		max-width: 85vw;
+	}
+
+	.block-3-1-1 {
+		padding-bottom: 75px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.block-3-1-1 h2 {
+		max-width: none;
+		text-align: center;
+	}
+
+	.block-3-1-1 p {
+		max-width: none;
+		text-align: center;
+	}
+
+	.block-3-1-2 {
+		margin-left: 0;
+    	max-width: none;
+	}
+
+	.mini-block {
+		max-width: 400px;
+	}
+
+	.block-4-1,
+	.block-5-1,
+	.block-8-1 {
+		width: 85vw;
+	}
+
+	.portfolio-menu ul li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.portfolio-album-a:nth-child(1n) {
+		margin: 15px;
+	}
+
+	.block-6-1 {
+		max-width: 85vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.block-6-1 h2 {
+		max-width: none;
+		text-align: center;
+	}
+
+	.block-6-1 p {
+		max-width: none;
+		text-align: center;
+	}
+
+	.hr-6-7 {
+		margin: 0;
+	}
+
+	.block-7-1 {
+		max-width: 85vw;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.photo-man {
+		margin: 0;
+	}
+
+	.block-7-1-1 h3 {
+		margin-top: 40px;
+	}
+
+	.block-7-1-1 {
+		text-align: center;
+		align-items: center;
+	}
+
+	.block-8-1 h2 {
+		line-height: 55px;
+	}
+
+	.block-9-1 {
+		max-width: 85vw;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.block-9-1 h2 {
+		text-align: center;
+	}
+
+	.block-9-1 p {
+		text-align: center;
+	}
+
+	.hr-9-10 {
+		margin: 0;
+	}
+
+	.block-10-0,
+	.block-10-2 {
+		display: none;
+	}
+
+	.block-10-1 {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 85vw;
+	}
+	.block-10-1-1 {
+		width: 85vw;
+		max-width: none;
+	}
+	
+	.block-10-1-2 {
+		margin-top: 40px;
+		padding: 80px;
+		width: 85vw;
+	}
+
+	.form-block-10 {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#name-block-10,
+	#email-block-10 {
+		margin: 20px 0;
+		width: 75vw;
+	}
+
+	#message-block-10 {
+		margin-top: 20px;
+		width: 75vw;
+	}
+
+	#button-block-10 {
+		width: 75vw;
+	}
+
+	.block-11-1 {
+		width: 85vw;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 1010px) {
+	
+	.albun-team-7-block {
+		justify-content: center;
+	}
+
+	.member:nth-child(1n) {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 990px) {
+
+	.block-3-1-2 {
+		justify-content: center;
+	}
+
+	.mini-block {
+		max-width: 85vw;
+		text-align: center;
+	}
+
+	.order-social-7-block li:nth-child(1n) {
+		margin: 15px;
+	}
+
+	#email-block-8 {
+		width: 55vw;
+    	height: 82px;
+	}
+
+	#button-block-8 {
+		width: 25vw;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 770px) {
+
+	.portfolio-menu ul {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.portfolio-album {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.portfolio-album-img {
+		width: 60vw;
+		height: auto;
+	}
+
+	.portfolio-album-a:nth-child(1n) {
+		margin: 20px;
+	}
+	
+	.block-11-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer-text {
+		text-align: center;
+		width: 85vw;
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 730px) {
+	
+	.intro h1 {
+		font-size: 50px;
+    	line-height: 65px;
+	}
+
+	.member:nth-child(1n) {
+		margin: 15px;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 540px) {
+
+	.intro h1 {
+		font-size: 40px;
+    	line-height: 55px;
+	}
+
+	.intro .button-intro {
+		font-size: 16px;
+		width: 40vw;
+		padding: 15px 0;
+	}
+	
+	.block-3-1-1 h2,
+	.block-4-1 h2,
+	.block-6-1 h2,
+	.block-8-1 h2,
+	.block-9-1 h2 {
+		font-size: 40px;
+    	line-height: 55px;
+	}
+
+	.photo-girl {
+		width: 138px;
+    	height: 150px;
+	}
+
+	.form-block-8 {
+		flex-direction: column;
+	}
+
+	#email-block-8 {
+		width: 85vw;
+    	height: 82px;
+    	margin: 10px auto;
+	}
+
+	#button-block-8 {
+		width: 85vw;
+		margin: 10px auto;
+	}
+	
+	.block-10-1-2 {
+		padding: 30px;
+	}
+
+	.contacts-address {
+		max-width: 315px;
+	}
+
+	#name-block-10,
+	#email-block-10 {
+		padding: 1px 25px;
+	}
+
+	#message-block-10 {
+		padding: 15px 25px 2px 25px;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 465px) {
+	
+	.intro h1 {
+		font-size: 32px;
+    	line-height: 42px;
+	}
+
+	.block-3-1-1 h2,
+	.block-4-1 h2,
+	.block-6-1 h2,
+	.block-8-1 h2,
+	.block-9-1 h2 {
+		font-size: 32px;
+    	line-height: 42px;
+	}
+	.photo-girl {
+		width: 197px;
+    	height: 214px;
+	}
+
+	.order-social-7-block {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.block-7-1-1 p {
+		margin-bottom: 5px;
+	}
+
+	.block-10-1-2 {
+		padding: 15px;
+	}
+
+	.contacts-address {
+		max-width: 315px;
+	}
+}
